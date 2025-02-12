@@ -41,7 +41,7 @@ fun QuizScreen(showFeedback:(String)->Unit) {
         Text(
             text = "Quiz App",
             fontSize = 24.sp,
-            modifier = Modifier.padding(vertical = 16.dp) // Add some vertical padding
+            modifier = Modifier.padding(vertical = 16.dp) 
         )
         Spacer(modifier = Modifier.height(24.dp))
         Text(text = "Is the Sky Blue?")
